@@ -64,6 +64,6 @@ implementation(name: 'MFTuneWheel', ext: 'aar')
  
 ## 效果图
  
-![img1]:[https://img1.baidu.com/it/u=2793643767,509874312&fm=26&fmt=auto] 
+
 
      
