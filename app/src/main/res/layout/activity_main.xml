@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/test_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        tools:text="123456" />
+
+    <com.lzhs.mftunewheel.MFTuneWheel
+        android:id="@+id/mMFTuneWheel"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="55dp"
+        app:font_size="16"
+        app:item_count="30"
+        app:max_item="950"
+        app:min_item="875"
+        app:scale_height="40.0"
+        app:scale_normal_color="@color/normal_color"
+        app:scale_normal_width="5"
+        app:scale_height_diff="15"
+        app:scale_max_height_diff="35"
+        app:scale_height_width="7"
+        app:scale_normal_five_color="@color/white"
+        app:text_color="@color/white"
+        app:text_diff="20"
+        />
+
+
+
+</LinearLayout>

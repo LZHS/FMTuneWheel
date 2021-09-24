@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MFTuneWheel">
+        <attr name="min_item" format="integer"/>
+        <attr name="max_item" format="integer"/>
+        <attr name="item_count" format="integer"/>
+        <attr name="scale_height" format="float"/>
+        <attr name="scale_normal_color" format="color"/>
+        <attr name="scale_normal_width" format="float"/>
+        <attr name="scale_height_diff" format="float"/>
+        <attr name="scale_max_height_diff" format="float"/>
+        <attr name="scale_height_width" format="float"/>
+        <attr name="scale_normal_five_color" format="color"/>
+        <attr name="font_size" format="integer"/>
+        <attr name="text_diff" format="float"/>
+        <attr name="text_color" format="color"/>
+    </declare-styleable>
+</resources>
